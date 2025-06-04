@@ -58,8 +58,13 @@
 ```sqlseal
 TABLE d = table(0)
 CHART {
-	xAxis: { },
-	yAxis: { },
+	xAxis: {
+		type: 'log',
+		logBase: '2'
+	},
+	yAxis: {
+		min: 1
+	},
 	tooltip: { },
 	series: [{
 		type: 'scatter',

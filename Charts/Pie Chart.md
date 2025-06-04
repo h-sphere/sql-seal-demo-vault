@@ -19,3 +19,32 @@ CHART {
 }
 SELECT * FROM finances
 ```
+
+
+## Doughnut
+
+```sqlseal
+TABLE finances = table(0)
+
+CHART {
+	series: [{
+		type: 'pie',
+		radius: ['40%', '70%']
+	}]
+}
+SELECT * FROM finances
+```
+
+## Nightingale (Rose Chart)
+
+```sqlseal
+TABLE finances = table(0)
+
+CHART {
+	series: [{
+		type: 'pie',
+		roseType: 'area'
+	}]
+}
+SELECT * FROM finances
+```

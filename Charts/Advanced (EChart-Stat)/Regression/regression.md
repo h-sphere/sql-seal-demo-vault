@@ -1,3 +1,9 @@
+```sqlseal
+TABLE regression = file(./Regression Data.csv)
+MARKDOWN
+SELECT * FROM regression
+```
+
 
 ```sqlseal
 TABLE regression = file(./Regression Data.csv)

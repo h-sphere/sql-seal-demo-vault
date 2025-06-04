@@ -13,6 +13,7 @@ CHART
 {
 	xAxis: { type: 'category' },
 	yAxis: { },
+	legend: { show: true },
 	series: [{ type: 'line' }, { type: 'line' }]
 }
 SELECT * FROM data

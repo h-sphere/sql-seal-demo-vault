@@ -1,6 +1,12 @@
 
 ```sqlseal
 TABLE clustering = file(./Clustering Data.csv)
+MARKDOWN
+SELECT * FROM clustering
+```
+
+```sqlseal
+TABLE clustering = file(./Clustering Data.csv)
 ADVANCED MODE
 CHART
 
